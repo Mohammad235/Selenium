@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T21:18:19 EDT" name="Regression" finished-at="2022-10-12T21:19:11 EDT" duration-ms="52779">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T21:18:19 EDT" name="it" finished-at="2022-10-12T21:19:11 EDT" duration-ms="52779">
+      <class name="TestNG.Providing">
+        <test-method is-config="true" signature="Ibrowser(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Providing@7161d8d1]" started-at="2022-10-12T21:18:19 EDT" name="Ibrowser" finished-at="2022-10-12T21:18:26 EDT" duration-ms="7441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ibrowser -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Providing@7161d8d1]" started-at="2022-10-12T21:18:26 EDT" name="f" data-provider="dp" finished-at="2022-10-12T21:18:44 EDT" duration-ms="17928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tested]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Providing@7161d8d1]" started-at="2022-10-12T21:18:44 EDT" name="f" data-provider="dp" finished-at="2022-10-12T21:18:56 EDT" duration-ms="12255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tested234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Providing@7161d8d1]" started-at="2022-10-12T21:18:56 EDT" name="f" data-provider="dp" finished-at="2022-10-12T21:19:10 EDT" duration-ms="13562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Providing@7161d8d1]" started-at="2022-10-12T21:19:10 EDT" name="afterClass" finished-at="2022-10-12T21:19:11 EDT" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Providing -->
+    </test> <!-- it -->
+  </suite> <!-- Regression -->
+</testng-results>
